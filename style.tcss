@@ -1,0 +1,51 @@
+Screen{
+    min-width: 80w;
+}
+
+Header{
+    height: 10%;
+}
+
+#sort-button, #error-button {
+    content-align-horizontal: center;
+    content-align-vertical: middle;
+    margin: 1 1;
+    width: 50%;
+}
+
+.extension-list {
+    margin: 0;
+    width: 100%;
+    border: tall black;
+    height: 65%;
+}
+
+#path-input, #input-extension{
+    content-align-vertical: middle;
+    border: tall black;
+}
+
+#input-extension{
+    min-width: 20vw;
+}
+#extension-button {
+    min-width: 20vw;
+    dock: right;
+    border: tall black;
+    text-align:center;
+}
+
+.extensions{
+    margin: 1 0 0 0;
+    width: 100%;
+    layout:horizontal;
+}
+
+rigth{
+    layout:grid;
+    width: 1fr;
+    content-align-horizontal: center;
+}
+
+
+
